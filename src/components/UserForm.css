@@ -1,0 +1,32 @@
+
+.Form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .Form input {
+    padding: 8px;
+    width: calc(25% - 10px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .Form button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Form .save {
+    background-color: #4caf50;
+  }
+  
+  .Form .cancel {
+    background-color: #f44336;
+  }
+  

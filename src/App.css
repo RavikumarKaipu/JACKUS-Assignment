@@ -1,0 +1,30 @@
+/* Center the entire body in the viewport */
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for a card effect */
+  background: white; /* Optional for contrast */
+  border-radius: 8px; /* Optional for rounded corners */
+  background-color: antiquewhite;
+}
+  
+.App h1 {
+  text-align: center;
+  color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: blue;
+}
